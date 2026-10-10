@@ -27,7 +27,7 @@ plain[i]  = cipher[i] XOR key[i % 128]    # QMAEP -> AEP
 ```yaml
 key_id:              # 给这次发现起个短名字，比如 "qmaep_v1_128b"
 length: 128 bytes
-source_type:          # 本地样本比对 / 他人提供 / 公开仓库 / 反编译 等，如实填
+source_type:          # 本地样本比对 / 他人提供 / 公开资料 / 格式记录 等，如实填
 source_description:   # 具体怎么来的，一两句话
 source_url:           # 只有真的能打开、能验证的链接才填；打不开/搜不到就留空
 discovered_date:
